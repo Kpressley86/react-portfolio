@@ -1,16 +1,20 @@
 import React from 'react';
-import logo from './images/orb.gif';
+import Header from './components/Header/Header';
+import SideBar from './components/SideBar/SideBar';
+import About from './components/About/About';
+import Portfolio from './components/Portfolio/Portfolio';
+import Resume from './components/Resume/Resume';
+import Contact from './components/Contact/Contact';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">       
-        <h2 className="name">KELLY
-        <img src={logo} className="App-logo" alt="logo" />
-          PRESSLEY
-        </h2>
-      </header>
+    <div className="App"> <Header />
+    <div><About /></div>
+    <div><SideBar /></div>
+    <div><Portfolio /></div>
+    <div><Resume /></div>
+    <div><Contact /></div>
     </div>
   );
 }
