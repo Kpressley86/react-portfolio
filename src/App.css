@@ -1,4 +1,6 @@
 .App {
+  padding-left: 15%;
+  background-image: url("./images/prism.png");
   text-align: center;
 }
 
@@ -22,7 +24,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(6, 174, 204);
+  text-shadow: 2px 2px rgb(153, 151, 151);
 }
 
 @keyframes App-logo-spin {
