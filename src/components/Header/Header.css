@@ -1,16 +1,4 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-    border-radius: 50%;
-    margin-bottom: 60px;
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
+
   .App-header {
     background-color: #000000;
     padding-top: 20px;
@@ -22,18 +10,7 @@
   }
 
   .name {
-    padding-right: -0px;
-    float: left;
     font-size:80px;
     color: rgb(11, 116, 148);
-    text-shadow: 2px 2px rgb(147, 147, 147);
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+    text-shadow: 2px 2px rgb(208, 208, 208);
   }

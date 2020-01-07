@@ -1,5 +1,8 @@
 import React from 'react';
 import './Contact.css';
+import GitHub from '../images/git1.gif';
+import Stack from '../images/stackoverflow.png';
+import Link from '../images/linkedin.png'
 
 const Contact = () => {
     return (
@@ -32,8 +35,7 @@ const Contact = () => {
                 </div>
             </div>
 
-
-            <div className="card">
+            <div className="card conectBox">
                 <div className="card-header p-3 mb-2 bg-dark text-white">
                     <b className="neon">Connect with Me On:</b>
                 </div>
@@ -43,11 +45,11 @@ const Contact = () => {
                             <div id="connect">
 
                                 <a href="https://github.com/Kpressley86?tab=repositories"><img
-                                    src="assets/images/git-cat.png" className="social" alt="Github" /></a>
+                                    src={GitHub} className="social" alt="Github" /></a>
                                 <a href="https://www.linkedin.com/in/kelly-pressley-5490b3184/"><img
-                                    src="assets/images/linkedin.png" className="social" alt="LinkedIn" /></a>
+                                    src={Link} className="social" alt="LinkedIn" /></a>
                                 <a href="https://stackoverflow.com/users/12097119/kelly-pressley"><img
-                                    src="assets/images/stackoverflow.png" className="social"
+                                    src={Stack} className="social"
                                     alt="Stack Overflow" /></a>
                             </div>
                         </section>

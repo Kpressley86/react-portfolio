@@ -15,7 +15,7 @@ const menu1 = [
     },
     {
         id: 3,
-        label: '🗎 Resume',
+        label: '📜 Resume',
         to: '#Resume',
     },
     {

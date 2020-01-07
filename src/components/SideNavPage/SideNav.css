@@ -20,3 +20,7 @@ BODY {
     background-image: url("../images/prism.png");
     padding-top: 50px;
   }
+
+  .metismenu-link:visited {
+    background-color: rgb(11, 116, 148);
+  }

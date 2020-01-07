@@ -1,13 +1,16 @@
 import React from 'react';
+import logo from '../images/orb.gif';
 import KP from '../images/KP.jpg'
 import './About.css';
 
 const About = () => {
     return (
         <div className="About">
-            <div>
-                <div className="imageBorder">
-                <img src={KP} className="KP" alt="KP" />
+            <div className="border1">
+                <div className="border2">
+                    <div className="imageBorder">
+                        <img src={KP} className="KP" alt="KP" />
+                    </div>
                 </div>
             </div>
             <div>
@@ -20,6 +23,7 @@ const About = () => {
                     </h3>
                 </div>
             </div>
+            <img src={logo} className="App-logo" alt="logo" />
         </div>
     );
 }

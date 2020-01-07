@@ -1,0 +1,27 @@
+.Contact {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.social {
+    max-width: 60px;
+    margin-left: 15px;
+}
+.card {
+    margin-top: 40px;
+}
+.btn-contact {
+    color:rgb(208, 208, 208);
+    background-color: rgb(11, 116, 148);
+}
+
+.neon {
+    font-size: 30px;
+    color: rgb(11, 116, 148);
+    text-shadow: 1px 1px rgb(208, 208, 208);
+}
+
+.conectBox {
+    margin-left: 20%;
+    margin-right: 20%;
+}
