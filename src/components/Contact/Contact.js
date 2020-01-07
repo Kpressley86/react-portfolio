@@ -22,12 +22,12 @@ const Contact = () => {
                             <div className="form-group">
                                 <label for="exampleInputPassword1">Email</label>
                                 <input type="password" className="form-control" id="exampleInputPassword1"
-                                    placeholder="Enter email" />
+                                    placeholder="Enter Email" />
                             </div>
                             <div className="form-group">
                                 <label for="exampleFormControlTextarea1">Message</label>
                                 <textarea className="form-control" id="exampleFormControlTextarea1"
-                                    rows="3"></textarea>
+                                    rows="3" placeholder="Leave me a message here!"></textarea>
                             </div>
                             <button type="submit" className="btn btn-contact">Submit</button>
                         </form>
@@ -37,7 +37,7 @@ const Contact = () => {
 
             <div className="card conectBox">
                 <div className="card-header p-3 mb-2 bg-dark text-white">
-                    <b className="neon">Connect with Me On:</b>
+                    <b className="neon">Connect With Me On:</b>
                 </div>
                 <div className="card-body p-3 mb-2 bg-dark text-white">
                     <blockquote className="blockquote mb-0">

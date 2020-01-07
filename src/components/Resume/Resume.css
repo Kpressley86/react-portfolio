@@ -1,0 +1,17 @@
+.background {
+    background-image: url("../images/prism.png");
+    border-radius: 10%;
+    padding: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+.paper {
+    background-color: aliceblue;
+    border-radius: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
