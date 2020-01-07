@@ -6,10 +6,9 @@ const Header = () => {
     return (
 <div className="Header">
       <header className="App-header">       
-        <h2 className="name">KELLY
         <img src={logo} className="App-logo" alt="logo" />
-          PRESSLEY
-        </h2>
+        <br />
+        <h1 className="name">KELLY PRESSLEY</h1>
       </header>
     </div>
     );

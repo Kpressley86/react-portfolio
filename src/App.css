@@ -1,5 +1,6 @@
 .App {
-  padding-left: 12%;
-  background-image: url("./components/images/prism.png");
+  padding-left: 280px;
   text-align: center;
+  margin-right: 15px;
+  background-color: black;
 }
