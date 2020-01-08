@@ -25,12 +25,8 @@ const menu1 = [
     },
     {
         id: 5,
-        label: '📊 Repository 📈',
-        to: '#GHub',
-        // $("#metismenu").metisMenu ({
-        //     triggerElement: '.nav-link'
-        // });
-        // <a href="https://github.com/Kpressley86?tab=repositories"></a>
+        label:<a href={'https://github.com/Kpressley86?tab=repositories'}>📊 Repository 📈</a>,
+        
     },
 ];
 
