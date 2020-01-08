@@ -24,7 +24,7 @@ const Portfolio = () => {
                             <img src={Crystal} className="portimg" alt="Crystal" />
                         </a>
                         <div>
-                        <h2 className="neon1">Crystal Collector</h2>
+                            <h2 className="neon1">Crystal Collector</h2>
                         </div>
                     </div>
 
@@ -33,7 +33,7 @@ const Portfolio = () => {
                             <img src={Crystal} className="portimg" alt="GolfPro" />
                         </a>
                         <div>
-                        <h2 className="neon1">Golf Pro</h2>
+                            <h2 className="neon1">Golf Pro</h2>
                         </div>
                     </div>
                 </div>
@@ -42,20 +42,20 @@ const Portfolio = () => {
                 <div className="row">
 
                     <div className="item1">
-                    <a href="https://kpressley86.github.io/train-schedule/">
-                        <img src={Crystal} className="portimg" alt="Train" />
+                        <a href="https://kpressley86.github.io/train-schedule/">
+                            <img src={Crystal} className="portimg" alt="Train" />
                         </a>
                         <div>
-                        <h2 className="neon1">Train Schedule</h2>
+                            <h2 className="neon1">Train Schedule</h2>
                         </div>
                     </div>
 
                     <div className="item2">
-                    <a href="https://kpressley86.github.io/TriviaGame/">
-                        <img src={Crystal} className="portimg" alt="TriviaGame" />
+                        <a href="https://kpressley86.github.io/TriviaGame/">
+                            <img src={Crystal} className="portimg" alt="TriviaGame" />
                         </a>
                         <div>
-                        <h2 className="neon1">Trivia Game</h2>
+                            <h2 className="neon1">Trivia Game</h2>
                         </div>
                     </div>
                 </div>
@@ -64,9 +64,12 @@ const Portfolio = () => {
                 <div className="row">
 
                     <div className="item1">
-                        <img src={Crystal} className="Crystal" alt="Crystal" />
-                        <h5 type="button" onClick="parent.open('https://kpressley86.github.io/Word-Guess-Game/')"
-                            className="neon1">Word Guess</h5>
+                    <a href="https://kpressley86.github.io/Word-Guess-Game/">
+                            <img src={Crystal} className="portimg" alt="Word Guess" />
+                        </a>
+                        <div>
+                            <h2 className="neon1">Word Guess</h2>
+                        </div>
                     </div>
 
                     <div className="item2">
@@ -74,7 +77,7 @@ const Portfolio = () => {
                             <img src={Giphy} className="portimg" alt="Giphy" />
                         </a>
                         <div>
-                        <h2 className="neon1">Giphy</h2>
+                            <h2 className="neon1">Giphy</h2>
                         </div>
                     </div>
                 </div>
@@ -83,17 +86,20 @@ const Portfolio = () => {
                 <div className="row">
 
                     <div className="item1">
-                        <img src={Crystal} className="Crystal" alt="Crystal" />
-                        <h5 type="button" onClick="parent.open('https://kpressley86.github.io/unit-4-game/')"
-                            className="neon1">RPG Game</h5>
+                    <a href="https://kpressley86.github.io/unit-4-game/">
+                            <img src={Crystal} className="portimg" alt="RPG Game" />
+                        </a>
+                        <div>
+                            <h2 className="neon1">RPG Game</h2>
+                        </div>
                     </div>
 
                     <div className="item2">
-                    <a href="https://github.com/Kpressley86/liri-node-app">
-                        <img src={Liri} className="portimg" alt="Liri" />
+                        <a href="https://github.com/Kpressley86/liri-node-app">
+                            <img src={Liri} className="portimg" alt="Liri" />
                         </a>
                         <div>
-                        <h2 className="neon1">Liri-Bot</h2>
+                            <h2 className="neon1">Liri-Bot</h2>
                         </div>
                     </div>
                 </div>
@@ -102,18 +108,21 @@ const Portfolio = () => {
                 <div className="row">
 
                     <div className="item1">
-                    <a href="https://github.com/Kpressley86/bamazon">
-                        <img src={Bam} className="portimg" alt="Bam" />
+                        <a href="https://github.com/Kpressley86/bamazon">
+                            <img src={Bam} className="portimg" alt="Bam" />
                         </a>
                         <div>
-                        <h2 className="neon1">Bamazon</h2>
+                            <h2 className="neon1">Bamazon</h2>
                         </div>
                     </div>
 
                     <div className="item2">
-                        <img src={Crystal} className="Crystal" alt="Crystal" />
-                        <h5 type="button" onClick="parent.open('https://desperate-people.herokuapp.com/')"
-                            className="neon1">Friend Finder App</h5>
+                    <a href="https://desperate-people.herokuapp.com/">
+                            <img src={Crystal} className="portimg" alt="Friend-Finder" />
+                        </a>
+                        <div>
+                            <h2 className="neon1">Friend Finder</h2>
+                        </div>
                     </div>
                 </div>
             </div>
