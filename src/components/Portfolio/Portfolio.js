@@ -5,7 +5,11 @@ import Bam from '../images/bam.gif';
 import Liri from '../images/liri.gif';
 import Giphy from '../images/giphy.gif';
 import Golf from '../images/golf.jpg';
-import Train from '../images/train.jpg';
+import Train from '../images/Train.gif';
+import RPG from '../images/RPG.gif';
+import News from '../images/news.jpg';
+import Trivia from '../images/Trivia.gif';
+import Word from '../images/Word.gif';
 
 
 
@@ -30,11 +34,11 @@ const Portfolio = () => {
                     </div>
 
                     <div className="item2">
-                        <a href="https://kpressley86.github.io/Greyjoys-Project-1/">
-                            <img src={Golf} className="portimg" alt="GolfPro" />
+                        <a href="https://kpressley86.github.io/Word-Guess-Game/">
+                            <img src={Word} className="portimg" alt="Word Guess" />
                         </a>
                         <div>
-                            <h2 className="neon1">Golf Pro</h2>
+                            <h2 className="neon1">Word Guess</h2>
                         </div>
                     </div>
                 </div>
@@ -53,7 +57,7 @@ const Portfolio = () => {
 
                     <div className="item2">
                         <a href="https://kpressley86.github.io/TriviaGame/">
-                            <img src={Crystal} className="portimg" alt="TriviaGame" />
+                            <img src={Trivia} className="portimg" alt="TriviaGame" />
                         </a>
                         <div>
                             <h2 className="neon1">Trivia Game</h2>
@@ -64,12 +68,12 @@ const Portfolio = () => {
                 {/* <!-- ROW 3 --> */}
                 <div className="row">
 
-                    <div className="item1">
-                    <a href="https://kpressley86.github.io/Word-Guess-Game/">
-                            <img src={Crystal} className="portimg" alt="Word Guess" />
+                <div className="item1">
+                        <a href="https://kpressley86.github.io/unit-4-game/">
+                            <img src={RPG} className="portimg" alt="RPG Game" />
                         </a>
                         <div>
-                            <h2 className="neon1">Word Guess</h2>
+                            <h2 className="neon1">RPG Game</h2>
                         </div>
                     </div>
 
@@ -86,12 +90,14 @@ const Portfolio = () => {
                 {/* <!-- ROW 4 --> */}
                 <div className="row">
 
-                    <div className="item1">
-                    <a href="https://kpressley86.github.io/unit-4-game/">
-                            <img src={Crystal} className="portimg" alt="RPG Game" />
+                <div className="item1">
+                        <div className="portimgborder">
+                        <a href="https://kpressley86.github.io/Greyjoys-Project-1/">
+                            <img src={Golf} className="portimg" alt="GolfPro" />
                         </a>
+                        </div>
                         <div>
-                            <h2 className="neon1">RPG Game</h2>
+                            <h2 className="neon1">Golf Pro</h2>
                         </div>
                     </div>
 
@@ -109,20 +115,24 @@ const Portfolio = () => {
                 <div className="row">
 
                     <div className="item1">
+                        <div className="portimgborder">
                         <a href="https://github.com/Kpressley86/bamazon">
                             <img src={Bam} className="portimg" alt="Bam" />
                         </a>
+                        </div>
                         <div>
                             <h2 className="neon1">Bamazon</h2>
                         </div>
                     </div>
 
                     <div className="item2">
-                    <a href="https://desperate-people.herokuapp.com/">
-                            <img src={Crystal} className="portimg" alt="Friend-Finder" />
+                    <div className="portimgborder">
+                        <a href="https://obscure-wave-51950.herokuapp.com/">
+                            <img src={News} className="portimg" alt="NewsToMe" />
                         </a>
+                        </div>
                         <div>
-                            <h2 className="neon1">Friend Finder</h2>
+                            <h2 className="neon1">News To Me</h2>
                         </div>
                     </div>
                 </div>

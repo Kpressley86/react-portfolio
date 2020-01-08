@@ -19,7 +19,7 @@ const About = () => {
                         Hi, my name is Kelly Pressley. I am curently attending a Full-Stack Bootcamp at the University
                         of Arizon. Thank you for checking out my website. Please feel free to look at my Porfolio link
                         for all my projects. Contact page will be working soon! But until then my GitHub, LinkedIn, and
-                        StackOverflow are other ways to contact me.
+                        StackOverflow are other ways to conect with me.
                     </h3>
                 </div>
             </div>
