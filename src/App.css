@@ -1,6 +1,6 @@
 .App {
   padding-left: 280px;
   text-align: center;
-  margin-right: 15px;
+  margin-right: 0px !important;
   background-color: black;
 }

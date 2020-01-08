@@ -23,6 +23,11 @@ const menu1 = [
         label: '📱 Contact',
         to: '#Contact',
     },
+    {
+        id: 5,
+        label: '📊 Repository 📈',
+        to: '<a href="https://github.com/Kpressley86?tab=repositories"></a>',
+    },
 ];
 
 class SideNav extends React.Component {
