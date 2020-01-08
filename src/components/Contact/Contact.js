@@ -2,7 +2,7 @@ import React from 'react';
 import './Contact.css';
 import GitHub from '../images/git1.gif';
 import Stack from '../images/stackoverflow.png';
-import Link from '../images/linkedin.png'
+import Link from '../images/linkedin.png';
 
 const Contact = () => {
     return (
@@ -15,21 +15,36 @@ const Contact = () => {
                     <blockquote className="blockquote mb-0">
                         <form>
                             <div className="form-group">
-                                <label for="exampleInputEmail1">Name</label>
-                                <input type="email" className="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Enter Name" />
+                                <label>Name</label>
+                                <input 
+                                type="email" 
+                                className="form-control" 
+                                id="exampleInputName" 
+                                placeholder="Enter Name" 
+                                />
                             </div>
                             <div className="form-group">
-                                <label for="exampleInputPassword1">Email</label>
-                                <input type="password" className="form-control" id="exampleInputPassword1"
-                                    placeholder="Enter Email" />
+                                <label>Email</label>
+                                <input 
+                                type="password" 
+                                className="form-control" 
+                                id="exampleInputEmail"
+                                placeholder="Enter Email" 
+                                />
                             </div>
                             <div className="form-group">
-                                <label for="exampleFormControlTextarea1">Message</label>
-                                <textarea className="form-control" id="exampleFormControlTextarea1"
-                                    rows="3" placeholder="Leave me a message here!"></textarea>
+                                <label>Message</label>
+                                <textarea 
+                                className="form-control" 
+                                id="exampleFormControlTextarea"
+                                rows="3" 
+                                placeholder="Leave me a message here!" 
+                                />
                             </div>
-                            <button type="submit" className="btn btn-contact">Submit</button>
+                            <button 
+                            type="submit" 
+                            className="btn btn-contact"
+                            >Submit</button>
                         </form>
                     </blockquote>
                 </div>

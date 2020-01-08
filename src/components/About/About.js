@@ -17,10 +17,11 @@ const About = () => {
                 <div>
                     <h3>
                         Hi, my name is Kelly Pressley. I am curently attending a Full-Stack Bootcamp at the University
-                        of Arizon. I'm pretty fluent in JavaScript whether its DOM manipulation or making API calls. 
+                        of Arizon. I'm pretty fluent in JavaScript whether its DOM manipulation or making API calls. I built 
+                        this website using React and a lot of help from Google.
                         Please feel free to look at my <a href="#Portfolio">Portfolio </a> for some of my recent projects. 
-                        <a href="#Contact"> Contact</a> page will be working soon! But until then my GitHub, LinkedIn, and
-                        StackOverflow are other ways to conect with me.
+                        <a href="#Contact"> Contact</a> me if you have any questions or comments. Also my GitHub, LinkedIn, and
+                        StackOverflow are other ways to conect with me. Links are at the bottom of the page.
                     </h3>
                 </div>
             </div>

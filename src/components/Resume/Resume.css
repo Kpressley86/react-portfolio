@@ -21,3 +21,13 @@
     color: rgb(11, 116, 148);
     text-shadow: 1px 1px rgb(208, 208, 208);
 }
+
+.FL {
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
