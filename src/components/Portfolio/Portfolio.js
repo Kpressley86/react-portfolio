@@ -4,11 +4,12 @@ import Crystal from '../images/crystal2.gif';
 import Bam from '../images/bam.gif';
 import Liri from '../images/liri.gif';
 import Giphy from '../images/giphy.gif';
+import Golf from '../images/golf.jpg';
+import Train from '../images/train.jpg';
+
+
 
 const Portfolio = () => {
-
-
-
 
 
 
@@ -30,7 +31,7 @@ const Portfolio = () => {
 
                     <div className="item2">
                         <a href="https://kpressley86.github.io/Greyjoys-Project-1/">
-                            <img src={Crystal} className="portimg" alt="GolfPro" />
+                            <img src={Golf} className="portimg" alt="GolfPro" />
                         </a>
                         <div>
                             <h2 className="neon1">Golf Pro</h2>
@@ -43,7 +44,7 @@ const Portfolio = () => {
 
                     <div className="item1">
                         <a href="https://kpressley86.github.io/train-schedule/">
-                            <img src={Crystal} className="portimg" alt="Train" />
+                            <img src={Train} className="portimg" alt="Train" />
                         </a>
                         <div>
                             <h2 className="neon1">Train Schedule</h2>

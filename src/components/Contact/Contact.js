@@ -37,14 +37,14 @@ const Contact = () => {
 
             <div className="card conectBox">
                 <div className="card-header p-3 mb-2 bg-dark text-white">
-                    <b className="neon">Connect With Me On:</b>
+                    <b className="neon">Connect With Me:</b>
                 </div>
                 <div className="card-body p-3 mb-2 bg-dark text-white">
                     <blockquote className="blockquote mb-0">
                         <section className="sidebar">
                             <div id="connect">
 
-                                <a href="https://github.com/Kpressley86?tab=repositories"><img
+                                <a id="GHub" href="https://github.com/Kpressley86?tab=repositories"><img
                                     src={GitHub} className="social" alt="Github" /></a>
                                 <a href="https://www.linkedin.com/in/kelly-pressley-5490b3184/"><img
                                     src={Link} className="social" alt="LinkedIn" /></a>
