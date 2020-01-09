@@ -68,7 +68,7 @@ class Contact extends Component {
                                     <textarea
                                         className="form-control"
                                         rows="3"
-                                        placeholder="Leave me a message here!"
+                                        placeholder="Leave me a message!"
                                         name="Message"
                                         value={this.state.Message}
                                         onChange={(e) => this.handleInputChange(e)}
