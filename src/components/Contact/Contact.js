@@ -23,7 +23,7 @@ class Contact extends Component {
     handleFormSubmit = e => {
         e.preventDefault();
 
-        alert(`Thanks ${this.state.Name}! I'll get back to you as soon as i can. `);
+        alert(`Thanks ${this.state.Name}! I'll get back to you as soon as I can. `);
         this.setState({
             Name: "",
             Email: "",

@@ -25,7 +25,7 @@ const menu1 = [
     },
     {
         id: 5,
-        label:<a href={'https://github.com/Kpressley86?tab=repositories'}>📊 Repository 📈</a>,
+        label:<a className="linkCol" href={'https://github.com/Kpressley86?tab=repositories'}>📊 Repository 📈</a>,
         
     },
 ];

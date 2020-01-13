@@ -10,6 +10,7 @@ import RPG from '../images/RPG.gif';
 import News from '../images/news.jpg';
 import Trivia from '../images/Trivia.gif';
 import Word from '../images/Word.gif';
+import GiJoe from '../images/gijoe.png';
 
 
 
@@ -68,7 +69,7 @@ const Portfolio = () => {
                 {/* <!-- ROW 3 --> */}
                 <div className="row">
 
-                <div className="item1">
+                    <div className="item1">
                         <a href="https://kpressley86.github.io/unit-4-game/">
                             <img src={RPG} className="portimg" alt="RPG Game" />
                         </a>
@@ -90,11 +91,11 @@ const Portfolio = () => {
                 {/* <!-- ROW 4 --> */}
                 <div className="row">
 
-                <div className="item1">
+                    <div className="item1">
                         <div className="portimgborder">
-                        <a href="https://kpressley86.github.io/Greyjoys-Project-1/">
-                            <img src={Golf} className="portimg" alt="GolfPro" />
-                        </a>
+                            <a href="https://kpressley86.github.io/Greyjoys-Project-1/">
+                                <img src={Golf} className="portimg" alt="GolfPro" />
+                            </a>
                         </div>
                         <div>
                             <h2 className="neon1">Golf Pro</h2>
@@ -116,9 +117,9 @@ const Portfolio = () => {
 
                     <div className="item1">
                         <div className="portimgborder">
-                        <a href="https://github.com/Kpressley86/bamazon">
-                            <img src={Bam} className="portimg" alt="Bam" />
-                        </a>
+                            <a href="https://github.com/Kpressley86/bamazon">
+                                <img src={Bam} className="portimg" alt="Bam" />
+                            </a>
                         </div>
                         <div>
                             <h2 className="neon1">Bamazon</h2>
@@ -126,15 +127,30 @@ const Portfolio = () => {
                     </div>
 
                     <div className="item2">
-                    <div className="portimgborder">
-                        <a href="https://obscure-wave-51950.herokuapp.com/">
-                            <img src={News} className="portimg" alt="NewsToMe" />
-                        </a>
+                        <div className="portimgborder">
+                            <a href="https://obscure-wave-51950.herokuapp.com/">
+                                <img src={News} className="portimg" alt="NewsToMe" />
+                            </a>
                         </div>
                         <div>
                             <h2 className="neon1">News To Me</h2>
                         </div>
                     </div>
+                </div>
+
+                {/* <!-- ROW 6 --> */}
+                <div className="row">
+
+                    <div className="item1">
+                            <a href="http://stormy-fjord-58028.herokuapp.com/">
+                                <img src={GiJoe} className="portimg" alt="G.I. Joe" />
+                            </a>
+                        <div>
+                            <h2 className="neon1">Click-Guess</h2>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </div>

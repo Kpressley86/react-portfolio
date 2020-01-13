@@ -36,6 +36,8 @@ const Resume = () => {
             <h1>Projects</h1>
             <br />
             <p>
+              <b>G.I. Joe Click-Guess | Deployed site:</b> <a href="http://stormy-fjord-58028.herokuapp.com/">http://stormy-fjord-58028.herokuapp.com/</a><br/>
+              This is one of my most recent projects. It's a simple memory game I built with React. <br/>
               <b>Golf Pro | Deployed site:</b> <a href="https://kpressley86.github.io/Greyjoys-Project-1/">https://kpressley86.github.io/Greyjoys-Project-1/</a><br />
               This was our first class project. I was team lead and worked on the “back-end” code.
             My main responsibility was firebase authentication and making API calls. <br />

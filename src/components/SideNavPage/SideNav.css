@@ -24,3 +24,7 @@ BODY {
   .metismenu-link:visited {
     background-color: rgb(11, 116, 148);
   }
+
+  .linkCol {
+    color: rgb(255, 255, 255);
+  }
