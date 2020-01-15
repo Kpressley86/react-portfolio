@@ -1,6 +1,24 @@
 .App {
   padding-left: 280px;
   text-align: center;
-  margin-right: 0px !important;
+  margin-right: 0px;
   background-color: black;
+}
+
+@media all and (max-width: 1466px) and (min-width: 1050px) {
+  .App {
+   margin-right:-300px;
+  }
+}
+
+@media all and (max-width: 1049px) and (min-width: 700px) {
+  .App {
+   margin-right:-450px;
+  }
+}
+
+@media all and (max-width: 699px) and (min-width: 300px) {
+  .App {
+    margin-right: -600px;
+  }
 }
