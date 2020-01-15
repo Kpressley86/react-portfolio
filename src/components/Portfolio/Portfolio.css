@@ -12,6 +12,15 @@
     background-image: url("../images/prism.png");
 }
 
+@media all and (max-width: 699px) and (min-width: 300px) {
+    .Portfolio {
+    margin-left: 20px;
+    margin-right: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}
+
 .portimgborder {
     background-color: black;
     padding: 5px !important;

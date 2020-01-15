@@ -17,6 +17,13 @@
     padding-right: 200px;
 }
 
+@media all and (max-width: 699px) and (min-width: 300px) {
+  .About {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 .border1 {
   border-top-left-radius: 70%;
   border-top-right-radius: 0%;
