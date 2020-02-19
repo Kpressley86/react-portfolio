@@ -10,7 +10,7 @@ const Resume = () => {
             <h1>Kelly Pressley</h1>
             <br />
             <p>
-              <b>Gilber, Arizona</b> <br />
+              <b>Gilbert, Arizona</b> <br />
               <b>Phone: </b>541-510-5914 <b>| Email: </b>KellyPressley86@gmail.com<br />
               <b>LinkedIn: </b><a href="https://www.linkedin.com/in/kelly-pressley-5490b3184/">https://www.linkedin.com/in/kelly-pressley-5490b3184/</a><br />
               <b>GitHub: </b><a href="https://github.com/Kpressley86">https://github.com/Kpressley86</a><br />
@@ -19,7 +19,7 @@ const Resume = () => {
             <h1>Summary</h1>
             <br />
             <p>
-              <b>Full Stack Web Developer</b> with a background in Buisness.
+              <b>Full Stack Web Developer</b> with a background in Business.
               I got my first job pumping gas when I was 16 years old. And I've spent the last
               17 years in the work force gaining experience. Whether I was running my own company,
               handling customers, or training employees I’ve always worked hard to be the best at my job.
@@ -29,14 +29,14 @@ const Resume = () => {
             <br />
             <p>
               <b>Languages: </b>JavaScript, MySQL, GoogleFoo <br />
-              <b>Front-end: </b>HTML5, CSS, Bootstrap <br />
-              <b>Back-end: </b>Node.js, Express, React <br />
+              <b>Front-end: </b>HTML5, CSS, Bootstrap, jQuery, Moment.js <br />
+              <b>Back-end: </b>Node.js, Express, React, MongoDB, Ajax, Axios <br />
             </p>
             <br />
             <h1>Projects</h1>
             <br />
             <p>
-              <b>G.I. Joe Click-Guess | Deployed site:</b> <a href="http://stormy-fjord-58028.herokuapp.com/">http://stormy-fjord-58028.herokuapp.com/</a><br/>
+              <b>G.I. Joe Click-Guess | Deployed site:</b> <a href="http://secure-temple-86303.herokuapp.com/">http://secure-temple-86303.herokuapp.com/</a><br/>
               This is one of my most recent projects. It's a simple memory game I built with React. <br/>
               <b>Golf Pro | Deployed site:</b> <a href="https://kpressley86.github.io/Greyjoys-Project-1/">https://kpressley86.github.io/Greyjoys-Project-1/</a><br />
               This was our first class project. I was team lead and worked on the “back-end” code.
@@ -60,7 +60,7 @@ const Resume = () => {
               Knife River Harrisburg, OR<br />
               My role at Knife River was to manage a crew in a high danger fast paced environment.
               Building and moving concreate that weighed up to 200 thousand pounds!
-              I trained guys on safe practices, proper gear to use for each product, and how to opperate and maintain equipment.
+              I trained guys on safe practices, proper gear to use for each product, and how to operate and maintain equipment.
 </p>
             <br />
             <h1>Education</h1>
